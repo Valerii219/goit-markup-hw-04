@@ -1,0 +1,339 @@
+:root {
+  --primery-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #404bbf;
+  --primery-background-color: #ffffff;
+  --secondary-background-color: #4d5ae5;
+  --third-text-color: #ffffff;
+  --additional-color: #e7e9fc;
+  --based-background-color: #e5e5e5;
+  --team-section-color: #f4f4fd;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.02em;
+  color: var(--primery-text-color);
+  background-color: var(--primery-background-color);
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ===================HEADER================================ */
+
+/* menu */
+.top-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--based-background-color);
+}
+.top-header-container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.container-logo {
+  margin-right: 76px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-text-color);
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.contact-div {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  }
+.contact-mail {
+  margin-right: 30px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.mail,
+.number {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primery-text-color);
+}
+.mail:hover,
+.number:hover,
+.mail:focus,
+.number:focus {
+  color: var(--accent-color);
+}
+
+/* ===================/HEADER================================ */
+/*===================== COMPONENTS =================*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-background-color);
+}
+.logo .logo-studio-up {
+  color: var(--title-text-color);
+}
+.logo .logo-studio-down {
+  color: var(--third-text-color);
+}
+/* button */
+.modal-btn {
+  min-width: 105px;
+  letter-spacing: 0.04em;
+  color: var(--third-text-color);
+  background-color: var(--secondary-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+}
+.button {
+  border-radius: 4px;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--secondary-background-color);
+  border: 1px solid #e7e9fc;
+}
+.button:hover,
+.button:focus {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-bottom: 72px;
+}
+.suptitle {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primery-text-color);
+}
+.caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.suptitle-footer {
+  color: var(--additional-color);
+}
+/* ==================HERO========== */
+.hero {
+  background-color: var(--title-text-color);
+  text-align: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+.hero-container {
+  max-width: 1440px;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  color: var(--third-text-color);
+  max-width: 494px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+}
+
+/* ===================/HERO================================ */
+
+/*===================== MAIN =================*/
+/* ========================PORTFOLIO =============*/
+.button-none {
+  display: none;
+}
+.section-buttton {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filters-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.filters-button-project:not(:last-child) {
+  margin-right: 24px;
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  margin-top: 72px;
+}
+.content-title {
+  flex-basis: calc((100% - 72px) / 3);
+}
+
+.portfolio-card {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #ffffff;
+  border: 1px solid var(--additional-color);
+}
+/*  */
+/* ========================/PORTFOLIO =============*/
+
+.our {
+  opacity: 0;
+  display: none;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.features-list-title {
+  flex-basis: calc((100% - 72px) / 4);
+}
+.work-list {
+  display: flex;
+
+  gap: 24px;
+}
+.work-list-title {
+  flex-basis: calc((100% - 72px) / 3);
+}
+
+.team-list {
+  display: flex;
+  column-gap: 24px;
+  order: 0;
+}
+
+.team-list-title {
+  flex-basis: calc((100% - 72px) / 4);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.caption {
+  margin-bottom: 8px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-work {
+  padding-top: 0;
+}
+.section-team {
+  background-color: var(--team-section-color);
+}
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 16px;
+  padding-left: 16px;
+  background-color: var(--third-text-color);
+
+  border-radius: 0px 0px 4px 4px;
+  text-align: center;
+}
+
+/*===================== /MAIN =================*/
+
+/* ===================FOOTER============= */
+.footer {
+  background-color: var(--title-text-color);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-footer {
+  margin: 0 auto;
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  flex-grow: 1;
+}
+.suptitle-footer {
+  max-width: 264px;
+  margin-top: 16px;
+}
+
+/* ===================/FOOTER============= */
