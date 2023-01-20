@@ -22,7 +22,9 @@
     <header class="top-header">
       <div class="container top-header-container">
         <nav class="nav">
-          <a class="logo link container-logo" href="./index.html">Web<span class="logo-studio-up">Studio</span></a>
+          <a class="logo link container-logo" href="./index.html"
+            >Web<span class="logo-studio-up">Studio</span></a
+          >
           <ul class="menu list">
             <li class="menu-item"><a href="./index.html" class="menu-link link">Studio</a></li>
             <li class="menu-item">
@@ -31,16 +33,37 @@
             <li class="menu-item"><a href="" class="menu-link link">Contacts</a></li>
           </ul>
         </nav>
-        <div class="contact-div"><ul class="contact list">
-          <li class="contact-mail">
-            <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
-          </li>
-          <li class="contact-number">
-            <a href="tel:+110001111111" class="number link">+11 (000) 111-11-11</a>
-          </li>
-        </ul></div>
+        <div class="contact-div">
+          <ul class="poczta list">
+            <li class="item-poczta">
+              <a href="mailto:info@devstudio.com" class="poczta-link link">
+                <svg class="envelop" width="20px" height="20px">
+                  <use href="./images/icons.svg#icon-envelop"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="contact list">
+            <li class="contact-mail">
+              <a href="mailto:info@devstudio.com" class="mail link">info@devstudio.com</a>
+            </li>
+            <ul class="mobil list">
+              <li class="item-mobil">
+                <a href="tel:+110001111111" class="mobil-link link">
+                  <svg class="mobile" width="20px" height="20px">
+                    <use href="./images/icons.svg#icon-mobile"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+            <li class="contact-number">
+              <a href="tel:+110001111111" class="number link">+11 (000) 111-11-11</a>
+            </li>
+          </ul>
+        </div>
       </div>
-         </header>
+    </header>
     <!--main-->
     <main class="main">
       <section class="section-buttton">
@@ -188,13 +211,48 @@
     <!--footer-->
     <footer class="footer">
       <div class="container-footer">
-        <a href="./index.html" class="logo link footer-logo"
-          >Web<span class="logo-studio-down">Studio</span></a
-        >
-        <p class="suptitle suptitle-footer">
-          Increase the flow of customers and sales for your business with digital marketing & growth
-          solutions.
-        </p>
+        <div class="footer-text">
+          <a href="./index.html" class="logo link footer-logo"
+            >Web<span class="logo-studio-down">Studio</span></a
+          >
+          <p class="suptitle suptitle-footer">
+            Increase the flow of customers and sales for your business with digital marketing &
+            growth solutions.
+          </p>
+        </div>
+        <div class="social-media">
+          <p class="social">Social media</p>
+          <ul class="social-icons list">
+            <li class="social-items">
+              <a href="" class="social-link link">
+                <svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="" class="social-link link">
+                <svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="" class="social-link link">
+                <svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-items">
+              <a href="" class="social-link link">
+                <svg class="icons-footer" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
